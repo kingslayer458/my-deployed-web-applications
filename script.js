@@ -1,8 +1,18 @@
 
 const projectsData = [
   {
+    id: 5,
+    title: "Game vault",
+    description: "it shows details about upcoming games and news,enhanced version of Gaming Hub and Game Walls",
+    image: "images/20.png",
+    demoLink: "https://voluble-dasik-601e69.netlify.app/",
+    codeLink: "https://github.com/kingslayer458/Game-vault",
+    category: "frontend",
+    tags: ["React", "JavaScript", "gaming"],
+  },
+  {
     id: 1,
-    title: "KINGPLAY VIDEO STREAMER WITH REACT",
+    title: "Kingplay Video Streamer With React",
     description: "Video streaming application built with React",
     image: "images/1.png",
     demoLink: "https://kingslayer458.github.io/REACTER-KINGPLAY-VIDEOSTREAMERO",
@@ -22,7 +32,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "KINGPLAY VIDEO STREAMER WITHOUT REACT",
+    title: "Kingplay Video Streamer Without React",
     description: "Another version of the video streaming platform",
     image: "images/3.png",
     demoLink: "https://kingslayer458.github.io/KINGPLAY-VIDEO-STREAMER",
@@ -83,7 +93,7 @@ const projectsData = [
   },
   {
     id: 10,
-    title: "RED DEAD REDEMPTION 2 WALLPAPER WEBSITE",
+    title: "Red Dead Redemption 2 Wallpaper Website",
     description: "Wallpaper website dedicated to Red Dead Redemption 2",
     image: "images/9.png",
     demoLink: "https://kingslayer458.github.io/RED-DEAD-REDEMPTION-2-WALLPAPER-WEBSITE",
@@ -93,7 +103,7 @@ const projectsData = [
   },
   {
     id: 11,
-    title: "GAME SPHEREE",
+    title: "Game Spheree",
     description: "A simple landing page",
     image: "images/10.png",
     demoLink: "https://kingslayer458.github.io/GAME-SPHEREE",
@@ -153,7 +163,7 @@ const projectsData = [
   },
   {
     id: 17,
-    title: "PERSONAL PORTFOLIO",
+    title: "Personal Portfolio",
     description: "created my first portfolio",
     image: "images/16.png",
     demoLink: "https://kingslayer458.github.io/personal-portfolio/",
