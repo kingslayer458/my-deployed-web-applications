@@ -1,5 +1,51 @@
 
+
 const projectsData = [
+  // Top-tier Full-Stack Projects
+ 
+  {
+    id: 21,
+    title: "TasktrackerPro",
+    description: "Professional task tracking and management application for productivity enhancement",
+    image: "images/22.png",
+    demoLink: "https://tasktracker-for-railway-1.onrender.com/",
+    codeLink: "https://github.com/kingslayer458/TasktrackerPro",
+    category: "fullstack",
+    tags: ["Task Management", "Productivity", "JavaScript"],
+  },
+  {
+    id: 23,
+    title: "Sydney Events",
+    description: "An event tracking and discovery platform for Sydney-based activities and happenings",
+    image: "images/24.png",
+    demoLink: "https://sydney-events-railway-production.up.railway.app/",
+    codeLink: "https://github.com/kingslayer458/sydney-events",
+    category: "frontend",
+    tags: ["Events", "Location-based", "JavaScript"],
+  },
+
+  {
+    id: 50,
+    title: "File Sharing System Enhanced",
+    description: "System for sharing files between users and built with tempfile.org api",
+    image: "images/50.png",
+    demoLink: "https://kingslayer458.github.io/File-Sharing-system-version-2/",
+    codeLink: "https://github.com/kingslayer458/File-Sharing-system-version-2",
+    category: "fullstack",
+    tags: ["File Sharing", "JavaScript", "System"],
+  },
+  {
+    id: 20,
+    title: "Steam User Screenshots Using Scrapping",
+    description: "A tool to scrape and download Steam user screenshots with web scraping techniques",
+    image: "images/21.png",
+    demoLink: "https://steam-user-screenshots-extractor-production.up.railway.app/",
+    codeLink: " https://github.com/kingslayer458/steam-user-screenshots-using-scrapping",
+    category: "fullstack",
+    tags: ["Steam", "Web Scraping", "Screenshots"],
+  },
+  
+  // Advanced React Projects
   {
     id: 5,
     title: "Game vault",
@@ -21,16 +67,6 @@ const projectsData = [
     tags: ["React", "JavaScript", "Streaming"],
   },
   {
-    id: 2,
-    title: "Food App With Spoonacular API",
-    description: "Food recipe application using the Spoonacular API",
-    image: "images/2.png",
-    demoLink: "https://kingslayer458.github.io/Food-App-With-Spoonacular-API",
-    codeLink: "https://github.com/kingslayer458/Food-App-With-Spoonacular-API",
-    category: "frontend",
-    tags: ["API", "JavaScript", "Food"],
-  },
-  {
     id: 3,
     title: "Kingplay Video Streamer Without React",
     description: "Another version of the video streaming platform",
@@ -41,25 +77,35 @@ const projectsData = [
     tags: ["Streaming", "JavaScript", "Video"],
   },
   {
-    id: 4,
-    title: "Enhanced GitHub Activity Viewer",
-    description: "View GitHub activities with enhanced UI using GitHub API",
-    image: "images/4.png",
-    demoLink: "https://kingslayer458.github.io/Enhanced-GitHub-Activity-Viewer-using-github-api",
-    codeLink: "https://github.com/kingslayer458/Enhanced-GitHub-Activity-Viewer-using-github-api",
+    id: 9,
+    title: "Game Walls using RAWG API",
+    description: "PC Video Game wallpapers using the RAWG API",
+    image: "images/8.png",
+    demoLink: "https://kingslayer458.github.io/Game-walls-using-RAWG-API",
+    codeLink: "https://github.com/kingslayer458/Game-walls-using-RAWG-API",
     category: "frontend",
-    tags: ["GitHub API", "JavaScript", "Activity Tracker"],
+    tags: ["RAWG API", "Games", "Wallpapers"],
   },
 
   {
-    id: 6,
-    title: "File Sharing System",
-    description: "System for sharing files between users and built with file.io api",
-    image: "images/5.png",
-    demoLink: "https://kingslayer458.github.io/file-sharing-system",
-    codeLink: "https://github.com/kingslayer458/file-sharing-system",
+    id: 25,
+    title: "Chat Application Enhanced",
+    description: "Real-time chat application with enhanced features for seamless communication",
+    image: "images/26.png",
+    demoLink: "https://kingslayer458.github.io/Chat-application-enhanced",
+    codeLink: "https://github.com/kingslayer458/Chat-application-enhanced",
     category: "fullstack",
-    tags: ["File Sharing", "JavaScript", "System"],
+    tags: ["Chat", "Real-time", "WebSocket"],
+  },
+  {
+    id: 26,
+    title: "Website Builder (In Progress)",
+    description: "A drag-and-drop website builder tool for creating websites without coding (currently in development)",
+    image: "images/27.png",
+    demoLink: "https://v0-drag-and-drop-prototype-lyart.vercel.app/",
+    codeLink: "https://github.com/kingslayer458/Website-builder--in-progress",
+    category: "fullstack",
+    tags: ["Website Builder", "Drag & Drop", "In Progress"],
   },
   {
     id: 7,
@@ -70,6 +116,28 @@ const projectsData = [
     codeLink: "https://github.com/kingslayer458/reacter-steam",
     category: "frontend",
     tags: ["React", "Steam", "Games"],
+  },
+  
+  // API Integration Projects
+  {
+    id: 2,
+    title: "Food App With Spoonacular API",
+    description: "Food recipe application using the Spoonacular API",
+    image: "images/2.png",
+    demoLink: "https://kingslayer458.github.io/Food-App-With-Spoonacular-API",
+    codeLink: "https://github.com/kingslayer458/Food-App-With-Spoonacular-API",
+    category: "frontend",
+    tags: ["API", "JavaScript", "Food"],
+  },
+  {
+    id: 4,
+    title: "Enhanced GitHub Activity Viewer",
+    description: "View GitHub activities with enhanced UI using GitHub API",
+    image: "images/4.png",
+    demoLink: "https://kingslayer458.github.io/Enhanced-GitHub-Activity-Viewer-using-github-api",
+    codeLink: "https://github.com/kingslayer458/Enhanced-GitHub-Activity-Viewer-using-github-api",
+    category: "frontend",
+    tags: ["GitHub API", "JavaScript", "Activity Tracker"],
   },
   {
     id: 8,
@@ -82,35 +150,42 @@ const projectsData = [
     tags: ["Google Books API", "Books", "Search"],
   },
   {
-    id: 9,
-    title: "Game Walls using RAWG API",
-    description: "PC Video Game wallpapers using the RAWG API",
-    image: "images/8.png",
-    demoLink: "https://kingslayer458.github.io/Game-walls-using-RAWG-API",
-    codeLink: "https://github.com/kingslayer458/Game-walls-using-RAWG-API",
+    id: 16,
+    title: "Gaming Hub using RAWG API",
+    description: "Gaming hub with data from RAWG API",
+    image: "images/15.png",
+    demoLink: "https://kingslayer458.github.io/Gaming-hub-using-rawg-api-experimental",
+    codeLink: "https://github.com/kingslayer458/Gaming-hub-using-rawg-api-experimental",
     category: "frontend",
-    tags: ["RAWG API", "Games", "Wallpapers"],
+    tags: ["RAWG API", "Gaming", "Hub"],
   },
+
   {
-    id: 10,
-    title: "Red Dead Redemption 2 Wallpaper Website",
-    description: "Wallpaper website dedicated to Red Dead Redemption 2",
-    image: "images/9.png",
-    demoLink: "https://kingslayer458.github.io/RED-DEAD-REDEMPTION-2-WALLPAPER-WEBSITE",
-    codeLink: "https://github.com/kingslayer458/RED-DEAD-REDEMPTION-2-WALLPAPER-WEBSITE",
-    category: "frontend",
-    tags: ["RDR2", "Wallpapers", "Games"],
+    id: 24,
+    title: "Job Portal with MongoDB Demo",
+    description: "Full-stack job portal application built with MongoDB for job seekers and employers",
+    image: "images/25.png",
+    demoLink: "https://jobportalyo.netlify.app/",
+    codeLink: "https://github.com/kingslayer458/job-portal-with-mongodb",
+    category: "fullstack",
+    tags: ["MongoDB", "Job Portal", "MERN Stack"],
   },
+
+  
+  // Event & Location-based Projects
+
   {
-    id: 11,
-    title: "Game Spheree",
-    description: "A simple landing page",
-    image: "images/10.png",
-    demoLink: "https://kingslayer458.github.io/GAME-SPHEREE",
-    codeLink: "https://github.com/kingslayer458/GAME-SPHEREE",
-    category: "frontend",
-    tags: ["Games", "Platform", "JavaScript"],
+    id: 22,
+    title: "Note Taker App",
+    description: "A note-taking application with features to create, save, and manage notes efficiently",
+    image: "images/23.png",
+    demoLink: "https://v0-react-note-app-tau.vercel.app/",
+    codeLink: "https://github.com/kingslayer458/Note-Taker-app",
+    category: "fullstack",
+    tags: ["Notes", "Productivity", "JavaScript"],
   },
+  
+  // Utility Applications
   {
     id: 12,
     title: "Weather Application",
@@ -120,26 +195,6 @@ const projectsData = [
     codeLink: "https://github.com/kingslayer458/weather-application",
     category: "frontend",
     tags: ["Weather API", "JavaScript", "Forecast"],
-  },
-  {
-    id: 13,
-    title: "Lana Del Ray",
-    description: "Fan website for Lana Del Ray",
-    image: "images/12.png",
-    demoLink: "https://kingslayer458.github.io/lana-del-ray",
-    codeLink: "https://github.com/kingslayer458/lana-del-ray",
-    category: "frontend",
-    tags: ["Music", "Fan Site", "Artist"],
-  },
-  {
-    id: 14,
-    title: "Dr. Norman Tribute Page",
-    description: "Tribute page dedicated to Dr. Norman",
-    image: "images/13.png",
-    demoLink: "https://kingslayer458.github.io/dr-norman-tribute-page",
-    codeLink: "https://github.com/kingslayer458/dr-norman-tribute-page",
-    category: "frontend",
-    tags: ["Tribute", "Biography", "HTML"],
   },
   {
     id: 15,
@@ -152,14 +207,26 @@ const projectsData = [
     tags: ["Calculator", "JavaScript", "Tool"],
   },
   {
-    id: 16,
-    title: "Gaming Hub using RAWG API",
-    description: "Gaming hub with data from RAWG API",
-    image: "images/15.png",
-    demoLink: "https://kingslayer458.github.io/Gaming-hub-using-rawg-api-experimental",
-    codeLink: "https://github.com/kingslayer458/Gaming-hub-using-rawg-api-experimental",
+    id: 6,
+    title: "File Sharing System",
+    description: "System for sharing files between users and built with file.io api",
+    image: "images/5.png",
+    demoLink: "https://kingslayer458.github.io/file-sharing-system",
+    codeLink: "https://github.com/kingslayer458/file-sharing-system",
+    category: "fullstack",
+    tags: ["File Sharing", "JavaScript", "System"],
+  },
+  
+  // Portfolio & Showcase Projects
+  {
+    id: 19,
+    title: "Projects Showcase",
+    description: "collection of all latest projects",
+    image: "images/19.png",
+    demoLink: "https://kingslayer458.github.io/Projects-showcase/",
+    codeLink: "https://github.com/kingslayer458/Projects-showcase",
     category: "frontend",
-    tags: ["RAWG API", "Gaming", "Hub"],
+    tags: ["Hub", "portfolio", "demo"],
   },
   {
     id: 17,
@@ -170,6 +237,41 @@ const projectsData = [
     codeLink: "https://github.com/kingslayer458/personal-portfolio",
     category: "frontend",
     tags: ["JavaScript", "portfolio", "demo"],
+  },
+  
+  // Entertainment & Media Projects
+
+  {
+    id: 10,
+    title: "Red Dead Redemption 2 Wallpaper Website",
+    description: "Wallpaper website dedicated to Red Dead Redemption 2",
+    image: "images/9.png",
+    demoLink: "https://kingslayer458.github.io/RED-DEAD-REDEMPTION-2-WALLPAPER-WEBSITE",
+    codeLink: "https://github.com/kingslayer458/RED-DEAD-REDEMPTION-2-WALLPAPER-WEBSITE",
+    category: "frontend",
+    tags: ["RDR2", "Wallpapers", "Games"],
+  },
+  {
+    id: 13,
+    title: "Lana Del Ray",
+    description: "Fan website for Lana Del Ray",
+    image: "images/12.png",
+    demoLink: "https://kingslayer458.github.io/lana-del-ray",
+    codeLink: "https://github.com/kingslayer458/lana-del-ray",
+    category: "frontend",
+    tags: ["Music", "Fan Site", "Artist"],
+  },
+  
+  // Simple Landing Pages & Starter Projects
+  {
+    id: 11,
+    title: "Game Spheree",
+    description: "A simple landing page",
+    image: "images/10.png",
+    demoLink: "https://kingslayer458.github.io/GAME-SPHEREE",
+    codeLink: "https://github.com/kingslayer458/GAME-SPHEREE",
+    category: "frontend",
+    tags: ["Games", "Platform", "JavaScript"],
   },
   {
     id: 18,
@@ -182,16 +284,17 @@ const projectsData = [
     tags: ["Gaming", "Fan Site", "demo"],
   },
   {
-    id: 19,
-    title: "Projects Showcase",
-    description: "collection of all latest projects",
-    image: "images/19.png",
-    demoLink: "https://kingslayer458.github.io/Projects-showcase/",
-    codeLink: "https://github.com/kingslayer458/Projects-showcase",
+    id: 14,
+    title: "Dr. Norman Tribute Page",
+    description: "Tribute page dedicated to Dr. Norman",
+    image: "images/13.png",
+    demoLink: "https://kingslayer458.github.io/dr-norman-tribute-page",
+    codeLink: "https://github.com/kingslayer458/dr-norman-tribute-page",
     category: "frontend",
-    tags: ["Hub", "portfolio", "demo"],
+    tags: ["Tribute", "Biography", "HTML"],
   },
 ]
+
 
 // DOM Elements
 const projectsGrid = document.querySelector(".projects-grid")
