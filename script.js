@@ -61,7 +61,7 @@ const projectsData = [
     title: "Kingplay Video Streamer With React",
     description: "Video streaming application built with React",
     image: "images/1.png",
-    demoLink: "https://kingslayer458.github.io/REACTER-KINGPLAY-VIDEOSTREAMERO",
+    demoLink: "https://kingslayer458.github.io/REACTER-KINGPLAY-VIDEOSTREAMERO/",
     codeLink: "https://github.com/kingslayer458/REACTER-KINGPLAY-VIDEOSTREAMERO",
     category: "frontend",
     tags: ["React", "JavaScript", "Streaming"],
